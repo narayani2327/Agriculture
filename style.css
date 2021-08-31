@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(223, 255, 204);
+    margin: 5px;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Bona Nova', serif;
+}
+h3{
+    margin: 10px;
+    font-size: 30px;
+}
+h4{
+    color: rgb(22, 11, 8);
+    font-size: 24px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom:35px;
+    border-radius: 10px;
+    font-family: 'Merriweather', serif;
+}
+.main img{
+    border: solid #000000 3px; 
+    border-radius: 10px;
+    margin: 10px;
+    width: 1283px;
+    height: 500px;
+}
+.navbar ul li{
+    display: inline;
+    background-color: bisque;
+    border-radius: 10px;
+    border:solid black 2px;
+    padding:25px;
+    margin: 65px; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    padding:5px;
+    margin: 5px;
+    font-family: 'Bona Nova', serif;
+    transition: background-color 1s ease-in;
+}
+.navbar ul li:hover a{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    margin-top: 30px;
+    border:solid black 2px;
+    border-radius: 10px;
+}
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e6b8a2;
+    padding: 10px;
+    border:solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+}
+.dis img{
+    border:solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+.text{
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+.diss{
+    margin: 10px;
+    background-color: /*#e9e1c9*/#e6b8a2;
+    padding: 10px;
+    border:solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+}
+.diss img{
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 55px;
+    margin-left: 105px;
+    margin-right: 105px;
+    width: 400px;
+    height: 350px;
+}
+.texxt{
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+.sticky a{
+    position: fixed;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 5px;
+    right: 20px;
+    bottom: 20px;
+}
+.footer{
+    margin: 10px;
+    border-radius: 10px;
+    border:solid white 2px;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
